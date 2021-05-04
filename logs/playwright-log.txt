@@ -1,0 +1,11 @@
+{"level":30,"time":"2021-05-04T02:24:58.181Z","pid":6993,"hostname":"Pantokrator","msg":"Listening on 40231"}
+{"level":30,"time":"2021-05-04T02:24:59.028Z","pid":6993,"hostname":"Pantokrator","msg":"Changed active context"}
+{"level":30,"time":"2021-05-04T02:24:59.421Z","pid":6993,"hostname":"Pantokrator","msg":"Video path: undefined"}
+{"level":30,"time":"2021-05-04T02:24:59.421Z","pid":6993,"hostname":"Pantokrator","msg":"Changed active page"}
+{"level":30,"time":"2021-05-04T02:25:01.390Z","pid":6993,"hostname":"Pantokrator","msg":"Retrieved text for element h1 containing Playwright enables reliable end-to-end testing for modern web apps."}
+{"level":30,"time":"2021-05-04T02:25:01.409Z","pid":6993,"hostname":"Pantokrator","msg":"Changed active context"}
+{"level":30,"time":"2021-05-04T02:25:01.409Z","pid":6993,"hostname":"Pantokrator","msg":"Changing current active page"}
+{"level":30,"time":"2021-05-04T02:25:01.410Z","pid":6993,"hostname":"Pantokrator","msg":"Changed active page"}
+{"level":30,"time":"2021-05-04T02:25:01.434Z","pid":6993,"hostname":"Pantokrator","msg":"Changed active context"}
+{"level":30,"time":"2021-05-04T02:25:01.434Z","pid":6993,"hostname":"Pantokrator","msg":"Changing current active page"}
+{"level":30,"time":"2021-05-04T02:25:01.434Z","pid":6993,"hostname":"Pantokrator","msg":"Changed active page"}
