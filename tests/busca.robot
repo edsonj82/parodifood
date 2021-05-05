@@ -4,10 +4,7 @@ Library                 Browser
 
 ***Test Cases***
 Cenario: Deve buscar um único restaurante
-    New Browser         chromium                true
-    New Page            https://parodifood.qaninja.academy
-    #checkpoint
-    Get Text            span    contains        Nunca foi tão engraçado pedir comida
+    Start Session
     Click               text=Estou com fome!
     Get Text            h1 strong      contains        Ta na hora de matar a fome!
 
@@ -21,17 +18,34 @@ Cenario: Deve buscar um único restaurante
     Take Screenshot
 
 Cenario: Deve buscar por categoria
-    New Browser         chromium                true
-    New Page            https://parodifood.qaninja.academy
-    #checkpoint
-    Get Text            span    contains        Nunca foi tão engraçado pedir comida
-
+    Start Session
     Click               text=Estou com fome!
     Get Text            h1 strong      contains        Ta na hora de matar a fome!
-    
+
     Click               css=.search-link
     Fill Text           css=input[formcontrolname="searchControl"]      Cafe
 
     Wait For Elements State     css=div[class="place-info-box"][style="opacity: 1;"]     visible     10         
     Get Text            css=.place-info-box         contains        STARBUGS COFFEE
     Take Screenshot
+
+Cenario: Deve retornar todos os restaurantes
+    Start Session
+    Click               text=Estou com fome!
+    
+    Get Text            h1 strong      contains        Ta na hora de matar a fome!
+
+    Click               css=.search-link
+    Fill Text           css=input[formcontrolname="searchControl"]      a
+
+    Wait For Elements State     css=div[class="place-info-box"][style="opacity: 1;"]     visible     10         
+    Get Element Count       css=.place-info-box     equal       5
+    # think time
+    Take Screenshot
+
+***Keywords***
+Start Session
+    New Browser         chromium                true
+    New Page            https://parodifood.qaninja.academy
+    #checkpoint
+    Get Text            span    contains        Nunca foi tão engraçado pedir comida
