@@ -1,6 +1,9 @@
 ***Settings***
 Documentation       Ações da funcionalidade de busca de restaurantes
 
+***Variables***
+${DIV_BOX_RESTAURANT}           css=div[class="place-info-box"][style="opacity: 1;"]
+
 ***Keywords***
 Start Session
     New Browser                 chromium                true
@@ -18,10 +21,10 @@ Search By
 
 Restaurant Should Be visible
     [Arguments]                 ${name}
-    Wait For Elements State     css=div[class="place-info-box"][style="opacity: 1;"]     visible     10         
-    Get Text                    css=.place-info-box         contains        ${name}
+    Wait For Elements State     ${DIV_BOX_RESTAURANT}       visible     10         
+    Get Text                    css=.place-info-box         contains    ${name}
 
 Restaurant Count Should Be
     [Arguments]                 ${qdt}
-    Wait For Elements State     css=div[class="place-info-box"][style="opacity: 1;"]     visible     10         
-    Get Element Count           css=.place-info-box     equal       ${qdt}
+    Wait For Elements State     ${DIV_BOX_RESTAURANT}       visible     10         
+    Get Element Count           css=.place-info-box         equal       ${qdt}
