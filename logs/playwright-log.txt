@@ -1,37 +1,36 @@
-{"level":30,"time":"2021-05-05T01:03:36.368Z","pid":11666,"hostname":"Pantokrator","msg":"Listening on 45131"}
-{"level":30,"time":"2021-05-05T01:03:36.771Z","pid":11666,"hostname":"Pantokrator","msg":"Changed active context"}
-{"level":30,"time":"2021-05-05T01:03:36.890Z","pid":11666,"hostname":"Pantokrator","msg":"Video path: undefined"}
-{"level":30,"time":"2021-05-05T01:03:36.896Z","pid":11666,"hostname":"Pantokrator","msg":"Changed active page"}
-{"level":30,"time":"2021-05-05T01:03:39.003Z","pid":11666,"hostname":"Pantokrator","msg":"Retrieved text for element span containing Nunca foi tão engraçado pedir comida"}
-{"level":30,"time":"2021-05-05T01:03:39.262Z","pid":11666,"hostname":"Pantokrator","msg":"Retrieved text for element h1 strong containing Ta na hora de matar a fome!"}
-{"level":30,"time":"2021-05-05T01:03:40.186Z","pid":11666,"hostname":"Pantokrator","msg":"Retrieved text for element css=.place-info-box containing PIZZA BUG\n 4.9\nPizzaria\n25m"}
-{"level":30,"time":"2021-05-05T01:03:40.233Z","pid":11666,"hostname":"Pantokrator","msg":"Retrieved text for element css=.place-info-box containing DEBUGER KING\n 3.5\nHamburgers\n100m"}
-{"level":30,"time":"2021-05-05T01:03:40.672Z","pid":11666,"hostname":"Pantokrator","msg":"Changed active context"}
-{"level":30,"time":"2021-05-05T01:03:40.673Z","pid":11666,"hostname":"Pantokrator","msg":"Changing current active page"}
-{"level":30,"time":"2021-05-05T01:03:40.673Z","pid":11666,"hostname":"Pantokrator","msg":"Changed active page"}
-{"level":30,"time":"2021-05-05T01:03:40.701Z","pid":11666,"hostname":"Pantokrator","msg":"Changed active context"}
-{"level":30,"time":"2021-05-05T01:03:40.701Z","pid":11666,"hostname":"Pantokrator","msg":"Changing current active page"}
-{"level":30,"time":"2021-05-05T01:03:40.701Z","pid":11666,"hostname":"Pantokrator","msg":"Changed active page"}
-{"level":30,"time":"2021-05-05T01:03:40.969Z","pid":11666,"hostname":"Pantokrator","msg":"Changed active context"}
-{"level":30,"time":"2021-05-05T01:03:41.032Z","pid":11666,"hostname":"Pantokrator","msg":"Video path: undefined"}
-{"level":30,"time":"2021-05-05T01:03:41.032Z","pid":11666,"hostname":"Pantokrator","msg":"Changed active page"}
-{"level":30,"time":"2021-05-05T01:03:43.147Z","pid":11666,"hostname":"Pantokrator","msg":"Retrieved text for element span containing Nunca foi tão engraçado pedir comida"}
-{"level":30,"time":"2021-05-05T01:03:43.416Z","pid":11666,"hostname":"Pantokrator","msg":"Retrieved text for element h1 strong containing Ta na hora de matar a fome!"}
-{"level":30,"time":"2021-05-05T01:03:44.383Z","pid":11666,"hostname":"Pantokrator","msg":"Retrieved text for element css=.place-info-box containing STARBUGS COFFEE\n 4.8\nCafeteria\n30-40m"}
-{"level":30,"time":"2021-05-05T01:03:44.535Z","pid":11666,"hostname":"Pantokrator","msg":"Changed active context"}
-{"level":30,"time":"2021-05-05T01:03:44.535Z","pid":11666,"hostname":"Pantokrator","msg":"Changing current active page"}
-{"level":30,"time":"2021-05-05T01:03:44.535Z","pid":11666,"hostname":"Pantokrator","msg":"Changed active page"}
-{"level":30,"time":"2021-05-05T01:03:44.560Z","pid":11666,"hostname":"Pantokrator","msg":"Changed active context"}
-{"level":30,"time":"2021-05-05T01:03:44.560Z","pid":11666,"hostname":"Pantokrator","msg":"Changing current active page"}
-{"level":30,"time":"2021-05-05T01:03:44.560Z","pid":11666,"hostname":"Pantokrator","msg":"Changed active page"}
-{"level":30,"time":"2021-05-05T01:03:44.786Z","pid":11666,"hostname":"Pantokrator","msg":"Changed active context"}
-{"level":30,"time":"2021-05-05T01:03:44.856Z","pid":11666,"hostname":"Pantokrator","msg":"Video path: undefined"}
-{"level":30,"time":"2021-05-05T01:03:44.860Z","pid":11666,"hostname":"Pantokrator","msg":"Changed active page"}
-{"level":30,"time":"2021-05-05T01:03:47.131Z","pid":11666,"hostname":"Pantokrator","msg":"Retrieved text for element span containing Nunca foi tão engraçado pedir comida"}
-{"level":30,"time":"2021-05-05T01:03:47.460Z","pid":11666,"hostname":"Pantokrator","msg":"Retrieved text for element h1 strong containing Ta na hora de matar a fome!"}
-{"level":30,"time":"2021-05-05T01:03:48.582Z","pid":11666,"hostname":"Pantokrator","msg":"Changed active context"}
-{"level":30,"time":"2021-05-05T01:03:48.582Z","pid":11666,"hostname":"Pantokrator","msg":"Changing current active page"}
-{"level":30,"time":"2021-05-05T01:03:48.582Z","pid":11666,"hostname":"Pantokrator","msg":"Changed active page"}
-{"level":30,"time":"2021-05-05T01:03:48.605Z","pid":11666,"hostname":"Pantokrator","msg":"Changed active context"}
-{"level":30,"time":"2021-05-05T01:03:48.605Z","pid":11666,"hostname":"Pantokrator","msg":"Changing current active page"}
-{"level":30,"time":"2021-05-05T01:03:48.606Z","pid":11666,"hostname":"Pantokrator","msg":"Changed active page"}
+{"level":30,"time":"2021-05-05T01:05:31.832Z","pid":12063,"hostname":"Pantokrator","msg":"Listening on 37027"}
+{"level":30,"time":"2021-05-05T01:05:32.275Z","pid":12063,"hostname":"Pantokrator","msg":"Changed active context"}
+{"level":30,"time":"2021-05-05T01:05:32.372Z","pid":12063,"hostname":"Pantokrator","msg":"Video path: undefined"}
+{"level":30,"time":"2021-05-05T01:05:32.372Z","pid":12063,"hostname":"Pantokrator","msg":"Changed active page"}
+{"level":30,"time":"2021-05-05T01:05:34.472Z","pid":12063,"hostname":"Pantokrator","msg":"Retrieved text for element span containing Nunca foi tão engraçado pedir comida"}
+{"level":30,"time":"2021-05-05T01:05:34.706Z","pid":12063,"hostname":"Pantokrator","msg":"Retrieved text for element h1 strong containing Ta na hora de matar a fome!"}
+{"level":30,"time":"2021-05-05T01:05:35.992Z","pid":12063,"hostname":"Pantokrator","msg":"Retrieved text for element css=.place-info-box containing DEBUGER KING\n 3.5\nHamburgers\n100m"}
+{"level":30,"time":"2021-05-05T01:05:36.248Z","pid":12063,"hostname":"Pantokrator","msg":"Changed active context"}
+{"level":30,"time":"2021-05-05T01:05:36.249Z","pid":12063,"hostname":"Pantokrator","msg":"Changing current active page"}
+{"level":30,"time":"2021-05-05T01:05:36.250Z","pid":12063,"hostname":"Pantokrator","msg":"Changed active page"}
+{"level":30,"time":"2021-05-05T01:05:36.274Z","pid":12063,"hostname":"Pantokrator","msg":"Changed active context"}
+{"level":30,"time":"2021-05-05T01:05:36.274Z","pid":12063,"hostname":"Pantokrator","msg":"Changing current active page"}
+{"level":30,"time":"2021-05-05T01:05:36.275Z","pid":12063,"hostname":"Pantokrator","msg":"Changed active page"}
+{"level":30,"time":"2021-05-05T01:05:36.574Z","pid":12063,"hostname":"Pantokrator","msg":"Changed active context"}
+{"level":30,"time":"2021-05-05T01:05:36.677Z","pid":12063,"hostname":"Pantokrator","msg":"Video path: undefined"}
+{"level":30,"time":"2021-05-05T01:05:36.677Z","pid":12063,"hostname":"Pantokrator","msg":"Changed active page"}
+{"level":30,"time":"2021-05-05T01:05:38.754Z","pid":12063,"hostname":"Pantokrator","msg":"Retrieved text for element span containing Nunca foi tão engraçado pedir comida"}
+{"level":30,"time":"2021-05-05T01:05:38.997Z","pid":12063,"hostname":"Pantokrator","msg":"Retrieved text for element h1 strong containing Ta na hora de matar a fome!"}
+{"level":30,"time":"2021-05-05T01:05:39.907Z","pid":12063,"hostname":"Pantokrator","msg":"Retrieved text for element css=.place-info-box containing STARBUGS COFFEE\n 4.8\nCafeteria\n30-40m"}
+{"level":30,"time":"2021-05-05T01:05:40.094Z","pid":12063,"hostname":"Pantokrator","msg":"Changed active context"}
+{"level":30,"time":"2021-05-05T01:05:40.094Z","pid":12063,"hostname":"Pantokrator","msg":"Changing current active page"}
+{"level":30,"time":"2021-05-05T01:05:40.094Z","pid":12063,"hostname":"Pantokrator","msg":"Changed active page"}
+{"level":30,"time":"2021-05-05T01:05:40.119Z","pid":12063,"hostname":"Pantokrator","msg":"Changed active context"}
+{"level":30,"time":"2021-05-05T01:05:40.119Z","pid":12063,"hostname":"Pantokrator","msg":"Changing current active page"}
+{"level":30,"time":"2021-05-05T01:05:40.119Z","pid":12063,"hostname":"Pantokrator","msg":"Changed active page"}
+{"level":30,"time":"2021-05-05T01:05:40.368Z","pid":12063,"hostname":"Pantokrator","msg":"Changed active context"}
+{"level":30,"time":"2021-05-05T01:05:40.477Z","pid":12063,"hostname":"Pantokrator","msg":"Video path: undefined"}
+{"level":30,"time":"2021-05-05T01:05:40.477Z","pid":12063,"hostname":"Pantokrator","msg":"Changed active page"}
+{"level":30,"time":"2021-05-05T01:05:42.930Z","pid":12063,"hostname":"Pantokrator","msg":"Retrieved text for element span containing Nunca foi tão engraçado pedir comida"}
+{"level":30,"time":"2021-05-05T01:05:43.301Z","pid":12063,"hostname":"Pantokrator","msg":"Retrieved text for element h1 strong containing Ta na hora de matar a fome!"}
+{"level":30,"time":"2021-05-05T01:05:44.824Z","pid":12063,"hostname":"Pantokrator","msg":"Changed active context"}
+{"level":30,"time":"2021-05-05T01:05:44.825Z","pid":12063,"hostname":"Pantokrator","msg":"Changing current active page"}
+{"level":30,"time":"2021-05-05T01:05:44.825Z","pid":12063,"hostname":"Pantokrator","msg":"Changed active page"}
+{"level":30,"time":"2021-05-05T01:05:44.862Z","pid":12063,"hostname":"Pantokrator","msg":"Changed active context"}
+{"level":30,"time":"2021-05-05T01:05:44.863Z","pid":12063,"hostname":"Pantokrator","msg":"Changing current active page"}
+{"level":30,"time":"2021-05-05T01:05:44.863Z","pid":12063,"hostname":"Pantokrator","msg":"Changed active page"}

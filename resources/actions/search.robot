@@ -5,11 +5,6 @@ Documentation       Ações da funcionalidade de busca de restaurantes
 ${DIV_BOX_RESTAURANT}           css=div[class="place-info-box"][style="opacity: 1;"]
 
 ***Keywords***
-Start Session
-    New Browser                 chromium                true
-    New Page                    https://parodifood.qaninja.academy
-    #checkpoint
-    Get Text                    span    contains        Nunca foi tão engraçado pedir comida
 Go To Restaurants
     Click                       text=Estou com fome!
     Get Text                    h1 strong      contains        Ta na hora de matar a fome!
