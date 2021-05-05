@@ -5,9 +5,7 @@ Library                 Browser
 ***Test Cases***
 Cenario: Deve buscar um único restaurante
     Start Session
-    Click               text=Estou com fome!
-    Get Text            h1 strong      contains        Ta na hora de matar a fome!
-
+    Go To Restaurants
     Click               css=.search-link
     Fill Text           css=input[formcontrolname="searchControl"]      Debuger
 
@@ -19,8 +17,7 @@ Cenario: Deve buscar um único restaurante
 
 Cenario: Deve buscar por categoria
     Start Session
-    Click               text=Estou com fome!
-    Get Text            h1 strong      contains        Ta na hora de matar a fome!
+    Go To Restaurants
 
     Click               css=.search-link
     Fill Text           css=input[formcontrolname="searchControl"]      Cafe
@@ -31,9 +28,7 @@ Cenario: Deve buscar por categoria
 
 Cenario: Deve retornar todos os restaurantes
     Start Session
-    Click               text=Estou com fome!
-    
-    Get Text            h1 strong      contains        Ta na hora de matar a fome!
+    Go To Restaurants
 
     Click               css=.search-link
     Fill Text           css=input[formcontrolname="searchControl"]      a
@@ -49,3 +44,6 @@ Start Session
     New Page            https://parodifood.qaninja.academy
     #checkpoint
     Get Text            span    contains        Nunca foi tão engraçado pedir comida
+Go To Restaurants
+    Click               text=Estou com fome!
+    Get Text            h1 strong      contains        Ta na hora de matar a fome!
