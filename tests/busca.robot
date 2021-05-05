@@ -6,8 +6,7 @@ Library                 Browser
 Cenario: Deve buscar um único restaurante
     Start Session
     Go To Restaurants
-    Click               css=.search-link
-    Fill Text           css=input[formcontrolname="searchControl"]      Debuger
+    Search By           Debuger
 
     Wait For Elements State     css=div[class="place-info-box"][style="opacity: 1;"]     visible     10         
     Get Text            css=.place-info-box         contains        DEBUGER KING
@@ -19,8 +18,8 @@ Cenario: Deve buscar por categoria
     Start Session
     Go To Restaurants
 
-    Click               css=.search-link
-    Fill Text           css=input[formcontrolname="searchControl"]      Cafe
+    Search By           Cafe
+
 
     Wait For Elements State     css=div[class="place-info-box"][style="opacity: 1;"]     visible     10         
     Get Text            css=.place-info-box         contains        STARBUGS COFFEE
@@ -30,8 +29,7 @@ Cenario: Deve retornar todos os restaurantes
     Start Session
     Go To Restaurants
 
-    Click               css=.search-link
-    Fill Text           css=input[formcontrolname="searchControl"]      a
+    Search By           a
 
     Wait For Elements State     css=div[class="place-info-box"][style="opacity: 1;"]     visible     10         
     Get Element Count       css=.place-info-box     equal       5
@@ -47,3 +45,8 @@ Start Session
 Go To Restaurants
     Click               text=Estou com fome!
     Get Text            h1 strong      contains        Ta na hora de matar a fome!
+
+Search By
+    [Arguments]         ${value}
+    Click               css=.search-link
+    Fill Text           css=input[formcontrolname="searchControl"]      ${value}
