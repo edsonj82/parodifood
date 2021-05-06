@@ -6,16 +6,17 @@ Test Teardown   Take Screenshot
 
 ***Test Cases***
 Cenario: Deve adicionar um item ao carrinho
-    ${name}             Set Variable         STARBUGS COFFEE
-    ${desc}             Set Variable         Nada melhor que um café pra te ajudar a resolver um bug.
+
+    &{restaurant}       Create Dictionary   name=STARBUGS COFFEE        desc=Nada melhor que um café pra te ajudar a resolver um bug.
+
     Go To Restaurants
     Choose Restaurant           
-    ...     ${name}     ${desc}
+    ...     ${restaurant}
 
 ***Keywords***
 Choose Restaurant
-    [Arguments]                 ${name}             ${description}     
+    [Arguments]                 ${restaurant}     
 
-    Click                       text=${name}
-    Wait For Elements State     css=#detail                visible     10
-    Get text                    css=#detail    contains    ${description}
+    Click                       text=${restaurant["name"]}
+    Wait For Elements State     css=#detail    visible     10
+    Get text                    css=#detail    contains    ${restaurant["desc"]}
