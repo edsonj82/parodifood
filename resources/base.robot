@@ -7,6 +7,8 @@ Library                 Browser
 Library                 OperatingSystem
 
 Resource                actions/search.robot
+Resource                actions/cart.robot
+
 
 ***Keywords***
 Start Session
