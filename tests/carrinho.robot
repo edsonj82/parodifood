@@ -7,11 +7,11 @@ Test Teardown   Take Screenshot
 ***Test Cases***
 Cenario: Deve adicionar um item ao carrinho
 
-    &{restaurant}       Create Dictionary   name=STARBUGS COFFEE        
+    &{restaurant}       Create Dictionary   restaurant=STARBUGS COFFEE        
     ...     desc=Nada melhor que um café pra te ajudar a resolver um bug.
 
     Go To Restaurants
-    Choose Restaurant           ${cart_json}
+    Choose Restaurant           ${restaurant}
     Add to cart                 Starbugs 500 error
     Should Add to Cart            Starbugs 500 error
     Total Cart Should Be        15,60 
