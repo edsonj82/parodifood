@@ -14,4 +14,5 @@ Should Add to Cart
 
 Total Cart Should Be
     [Arguments]                 ${total}
+    Log                         ${total}
     Get Text                    xpath=//th[contains(text(),"Total")]/..//td     contains    ${total}
