@@ -16,8 +16,26 @@ Cenario: Deve adicionar um item ao carrinho
     Show Add to Cart            Starbugs 500 error
     Total Cart Should Be        15,60 
 
-    sleep   10
+Cenario: Deve adicionar os 3 itens no carrinho
+    [Tags]  temp
+    &{restaurant}       Create Dictionary   name=STARBUGS COFFEE        
+    ...     desc=Nada melhor que um café pra te ajudar a resolver um bug.
 
+    Go To Restaurants
+    Choose Restaurant           ${restaurant}
+
+    Add to cart                 Cappuccino com Chantilly
+    Should Add to Cart          Cappuccino com Chantilly
+
+    Add to cart                 Super Espreso
+    Should Add to Cart            Super Espreso
+
+    Add to cart                 Starbugs 500 error
+    Should Add to Cart            Starbugs 500 error
+
+    Total Cart Should Be        38,00 
+
+    sleep   10
 ***Keywords***
 Choose Restaurant
     [Arguments]                 ${restaurant}     
@@ -30,7 +48,7 @@ Add to Cart
     [Arguments]                 ${name}
     Click                       xpath=//span[text()="${name}"]/..//a[@class="add-to-cart"]
 
-Show Add to Cart
+Should Add to Cart
     [Arguments]                 ${name}
     Wait For Elements State     css=#cart tr >> text=${name}    visible     5
 
