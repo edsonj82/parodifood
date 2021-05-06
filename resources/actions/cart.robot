@@ -4,13 +4,6 @@
 Documentation               Ações da funcionalidade do carrinho de compras
 
 ***Keywords***
-Choose Restaurant
-    [Arguments]                 ${super_var}     
-
-    Click                       text=${super_var["restaurant"]}
-    Wait For Elements State     css=#detail    visible     10
-    Get text                    css=#detail    contains    ${super_var["desc"]}
-
 Add to Cart
     [Arguments]                 ${name}
     Click                       xpath=//span[text()="${name}"]/..//a[@class="add-to-cart"]
