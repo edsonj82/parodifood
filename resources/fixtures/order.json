@@ -1,0 +1,17 @@
+{
+    "restaurant":"DEBUGER KING",
+    "desc":"40 anos se especializando em trash food.",
+    "products":[
+        {"name":"Woopper Burger"},
+        {"name":"Batatas Fritas"},
+        {"name":"Refrigerante"}
+    ],
+    "total":"28,50",
+    "customer":{
+        "name":"Edson José",
+        "email":"edson@theotokus.com",
+        "address": "Rua Xpto",
+        "number":"33"
+    },
+    "payment":"Dinheiro"
+}
